@@ -1,0 +1,18 @@
+
+# !@#$%*()/,.-0123456789?ABCEDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+
+
+
+import random
+
+chars = '!@#$%*()/,.-0123456789?ABCEDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
+
+password = ''
+
+lengthPW = int(input('que longitud quieres para tu pw'))
+
+for _ in range(lengthPW):
+
+  password += random.choice(chars)
+
+print(password)
